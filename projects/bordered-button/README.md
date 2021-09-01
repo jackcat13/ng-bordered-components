@@ -2,23 +2,46 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
-## Code scaffolding
+## Install
 
-Run `ng generate component component-name --project bordered-button` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project bordered-button`.
-> Note: Don't forget to add `--project bordered-button` or else it will be added to the default project in your `angular.json` file. 
+To install in an Angular project:
 
-## Build
+```sh
+npm install jackcat13-ng-bordered-button
+```
 
-Run `ng build bordered-button` to build the project. The build artifacts will be stored in the `dist/` directory.
+And import the module in app.module.ts:
 
-## Publishing
+```typescript
+import { BorderedButtonModule } from 'jackcat13-ng-bordered-button';
 
-After building your library with `ng build bordered-button`, go to the dist folder `cd dist/bordered-button` and run `npm publish`.
+@NgModule({
+  imports: [BorderedButtonModule]
+)}
+```
 
-## Running unit tests
+## Usage
 
-Run `ng test bordered-button` to execute the unit tests via [Karma](https://karma-runner.github.io).
+In any html file, use the following tag:
 
-## Further help
+```html
+<lib-bordered-button title="Any title" backgroundColor="#ee8700" color="white"></lib-bordered-button>
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Options
+
+In <lib-bordered-button> tag, it is possible to configure the following attributes (all are optional):
+
+- title="Any title"
+  - Configures the text inside the button
+- background-color="#ee8700"
+  - Configures the background color of the button when hovered
+- color="white"
+  - Configures the color of the text inside the button when hovered
+
+## Rendered example
+
+- normal
+![button1Example](https://user-images.githubusercontent.com/9136720/131695182-96857a94-49d5-41d3-82e6-81ac14f378fc.png)
+- hover
+![button2Example](https://user-images.githubusercontent.com/9136720/131695261-d97e4eff-d300-493a-859c-2fc331b351b9.png)

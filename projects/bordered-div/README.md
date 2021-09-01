@@ -2,23 +2,41 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
-## Code scaffolding
+## Install
 
-Run `ng generate component component-name --project bordered-div` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project bordered-div`.
-> Note: Don't forget to add `--project bordered-div` or else it will be added to the default project in your `angular.json` file. 
+To install in an Angular project:
 
-## Build
+```sh
+npm install jackcat13-ng-bordered-div
+```
 
-Run `ng build bordered-div` to build the project. The build artifacts will be stored in the `dist/` directory.
+And import the module in app.module.ts:
 
-## Publishing
+```typescript
+import { BorderedDivModule } from 'jackcat13-ng-bordered-div';
 
-After building your library with `ng build bordered-div`, go to the dist folder `cd dist/bordered-div` and run `npm publish`.
+@NgModule({
+  imports: [BorderedTitleDiv]
+)}
+```
 
-## Running unit tests
+## Usage
 
-Run `ng test bordered-div` to execute the unit tests via [Karma](https://karma-runner.github.io).
+In any html file, use the following tags:
 
-## Further help
+```html
+<lib-bordered-div>
+    <div>line 1</div>
+    <div>line 2</div>
+    <div>line 3</div>
+    <div>line 4</div>
+</lib-bordered-div>
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Options
+
+No option available. But note that the first element inside <lib-bordered-div> tag will be rendered as a "title" of the div as you can see in the below example.
+
+## Rendered example
+
+![divExample](https://user-images.githubusercontent.com/9136720/131695825-391461d8-8a5a-4d0e-a092-696cd8c50618.png)

@@ -2,26 +2,85 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
-## Development server
+## Available components
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### bordered-title
 
-## Code scaffolding
+See [bordered-title readme file](./projects/bordered-title/README.md)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Install
 
-## Build
+To install in an Angular project:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```sh
+npm install jackcat13-ng-bordered-title
+```
 
-## Running unit tests
+And import the module in app.module.ts:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```typescript
+import { BorderedTitleModule } from 'jackcat13-ng-bordered-title';
 
-## Running end-to-end tests
+@NgModule({
+  imports: [BorderedTitleModule]
+)}
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### Rendered example
 
-## Further help
+![titleExample](https://user-images.githubusercontent.com/9136720/131695157-624ca734-4dca-4f5b-8c1a-195000049846.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### bordered-button
+
+See [bordered-title readme file](./projects/bordered-button/README.md)
+
+#### Install
+
+To install in an Angular project:
+
+```sh
+npm install jackcat13-ng-bordered-button
+```
+
+And import the module in app.module.ts:
+
+```typescript
+import { BorderedButtonModule } from 'jackcat13-ng-bordered-button';
+
+@NgModule({
+  imports: [BorderedButtonModule]
+)}
+```
+
+#### Rendered example
+
+- normal
+![button1Example](https://user-images.githubusercontent.com/9136720/131695182-96857a94-49d5-41d3-82e6-81ac14f378fc.png)
+- hover
+![button2Example](https://user-images.githubusercontent.com/9136720/131695261-d97e4eff-d300-493a-859c-2fc331b351b9.png)
+
+### bordered-div
+
+See [bordered-title readme file](./projects/bordered-div/README.md)
+
+#### Install
+
+To install in an Angular project:
+
+```sh
+npm install jackcat13-ng-bordered-div
+```
+
+And import the module in app.module.ts:
+
+```typescript
+import { BorderedDivModule } from 'jackcat13-ng-bordered-div';
+
+@NgModule({
+  imports: [BorderedTitleDiv]
+)}
+```
+
+#### Rendered example
+
+![divExample](https://user-images.githubusercontent.com/9136720/131695825-391461d8-8a5a-4d0e-a092-696cd8c50618.png)
