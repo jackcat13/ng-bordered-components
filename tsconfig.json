@@ -3,6 +3,24 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "bordered-button": [
+        "dist/bordered-button/bordered-button",
+        "dist/bordered-button"
+      ],
+      "bordered-components": [
+        "dist/bordered-components/bordered-components",
+        "dist/bordered-components"
+      ],
+      "bordered-div": [
+        "dist/bordered-div/bordered-div",
+        "dist/bordered-div"
+      ],
+      "bordered-title": [
+        "dist/bordered-title/bordered-title",
+        "dist/bordered-title"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,

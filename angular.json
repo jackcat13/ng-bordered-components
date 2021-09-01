@@ -1,7 +1,135 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "bordered-components": {
+      "projectType": "library",
+      "root": "projects/bordered-components",
+      "sourceRoot": "projects/bordered-components/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/bordered-components/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/bordered-components/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/bordered-components/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/bordered-components/src/test.ts",
+            "tsConfig": "projects/bordered-components/tsconfig.spec.json",
+            "karmaConfig": "projects/bordered-components/karma.conf.js"
+          }
+        }
+      }
+    },
+    "bordered-title": {
+      "projectType": "library",
+      "root": "projects/bordered-title",
+      "sourceRoot": "projects/bordered-title/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/bordered-title/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/bordered-title/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/bordered-title/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/bordered-title/src/test.ts",
+            "tsConfig": "projects/bordered-title/tsconfig.spec.json",
+            "karmaConfig": "projects/bordered-title/karma.conf.js"
+          }
+        }
+      }
+    },
+    "bordered-div": {
+      "projectType": "library",
+      "root": "projects/bordered-div",
+      "sourceRoot": "projects/bordered-div/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/bordered-div/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/bordered-div/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/bordered-div/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/bordered-div/src/test.ts",
+            "tsConfig": "projects/bordered-div/tsconfig.spec.json",
+            "karmaConfig": "projects/bordered-div/karma.conf.js"
+          }
+        }
+      }
+    },
+    "bordered-button": {
+      "projectType": "library",
+      "root": "projects/bordered-button",
+      "sourceRoot": "projects/bordered-button/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/bordered-button/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/bordered-button/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/bordered-button/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/bordered-button/src/test.ts",
+            "tsConfig": "projects/bordered-button/tsconfig.spec.json",
+            "karmaConfig": "projects/bordered-button/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "bordered-components"
 }
