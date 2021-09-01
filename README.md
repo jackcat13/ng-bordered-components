@@ -1,30 +1,12 @@
 # BorderedComponents
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2. It aims at providing graphical components for Angular projects by packaging npm libraries. You can see below the available Ng components that you can use in your project.
 
 ## Available components
 
 ### bordered-title
 
-See [bordered-title readme file](./projects/bordered-title/README.md)
-
-#### Install
-
-To install in an Angular project:
-
-```sh
-npm install jackcat13-ng-bordered-title
-```
-
-And import the module in app.module.ts:
-
-```typescript
-import { BorderedTitleModule } from 'jackcat13-ng-bordered-title';
-
-@NgModule({
-  imports: [BorderedTitleModule]
-)}
-```
+See [bordered-title readme file](./projects/bordered-title/README.md) to learn how to install and use this component.
 
 #### Rendered example
 
@@ -32,25 +14,7 @@ import { BorderedTitleModule } from 'jackcat13-ng-bordered-title';
 
 ### bordered-button
 
-See [bordered-title readme file](./projects/bordered-button/README.md)
-
-#### Install
-
-To install in an Angular project:
-
-```sh
-npm install jackcat13-ng-bordered-button
-```
-
-And import the module in app.module.ts:
-
-```typescript
-import { BorderedButtonModule } from 'jackcat13-ng-bordered-button';
-
-@NgModule({
-  imports: [BorderedButtonModule]
-)}
-```
+See [bordered-title readme file](./projects/bordered-button/README.md) to learn how to install and use this component.
 
 #### Rendered example
 
@@ -61,25 +25,7 @@ import { BorderedButtonModule } from 'jackcat13-ng-bordered-button';
 
 ### bordered-div
 
-See [bordered-title readme file](./projects/bordered-div/README.md)
-
-#### Install
-
-To install in an Angular project:
-
-```sh
-npm install jackcat13-ng-bordered-div
-```
-
-And import the module in app.module.ts:
-
-```typescript
-import { BorderedDivModule } from 'jackcat13-ng-bordered-div';
-
-@NgModule({
-  imports: [BorderedTitleDiv]
-)}
-```
+See [bordered-title readme file](./projects/bordered-div/README.md) to learn how to install and use this component.
 
 #### Rendered example
 
