@@ -2,6 +2,10 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
+## Demo
+
+[Bordered div demo/code here](https://stackblitz.com/edit/angular-ivy-qlf7cm?file=src/app/app.component.html)
+
 ## Install
 
 To install in an Angular project:
@@ -35,7 +39,7 @@ In any html file, use the following tags:
 
 ### Options
 
-No option available. But note that the first element inside <lib-bordered-div> tag will be rendered as a "title" of the div as you can see in the below example.
+No option available. But note that the first element inside <lib-bordered-div> tag will be rendered as a "title" of the div as you can see in the below example. Also, the color of the wrapper div of the bordered-div will impact the bordered-div color because it is inherited.
 
 ## Rendered example
 

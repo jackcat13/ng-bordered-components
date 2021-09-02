@@ -2,6 +2,10 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
+## Demo
+
+[Bordered title demo/code here](https://stackblitz.com/edit/angular-ivy-hsvtm7?file=src/app/app.component.html)
+
 ## Install
 
 To install in an Angular project:

@@ -8,6 +8,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 See [bordered-title readme file](./projects/bordered-title/README.md) to learn how to install and use this component.
 
+#### Demo
+
+[Bordered title demo/code here](https://stackblitz.com/edit/angular-ivy-hsvtm7?file=src/app/app.component.html)
+
 #### Rendered example
 
 ![titleExample](https://user-images.githubusercontent.com/9136720/131695157-624ca734-4dca-4f5b-8c1a-195000049846.png)
@@ -15,6 +19,10 @@ See [bordered-title readme file](./projects/bordered-title/README.md) to learn h
 ### bordered-button
 
 See [bordered-title readme file](./projects/bordered-button/README.md) to learn how to install and use this component.
+
+#### Demo
+
+[Bordered button demo/code here](https://stackblitz.com/edit/angular-ivy-hdrtgv?file=src/app/app.component.html)
 
 #### Rendered example
 
@@ -26,6 +34,10 @@ See [bordered-title readme file](./projects/bordered-button/README.md) to learn 
 ### bordered-div
 
 See [bordered-title readme file](./projects/bordered-div/README.md) to learn how to install and use this component.
+
+#### Demo
+
+[Bordered div demo/code here](https://stackblitz.com/edit/angular-ivy-qlf7cm?file=src/app/app.component.html)
 
 #### Rendered example
 
